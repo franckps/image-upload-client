@@ -3,8 +3,8 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 <div style="text-align: center">
-<img src="./public/desktop_browser.gif" height="330" />
-<img src="./public/mobile_browser.gif" height="330" />
+<img alt="Desktop browser" src="./public/desktop_browser.gif" height="330" />
+<img alt="Mobile browser" src="./public/mobile_browser.gif" height="330" />
 </div>
 
 ## Available Scripts
