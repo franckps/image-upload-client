@@ -1,0 +1,40 @@
+.load-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    position: relative;
+    background-color: #ccc;
+    border-radius: 50%;
+    overflow: hidden;
+    animation: rotacao 2s linear infinite
+}
+
+.load-progress {
+    position: absolute;
+    background-color: #00f;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    animation: carregamento 15s infinite
+}
+
+.load-wraper {
+    position: absolute;
+    background-color: #fff;
+    top: 3px;
+    left: 3px;
+    bottom: 3px;
+    right: 3px;
+    border-radius: 50%
+}
+
+@keyframes rotacao {
+    0%{
+        transform: rotate(0deg)
+    }
+    100%{
+        transform: rotate(360deg)
+    }
+}

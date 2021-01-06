@@ -1,0 +1,22 @@
+
+.container {
+    width: 100%;
+    max-width: 400px;
+    background-color:  var(--secundary01);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px
+}
+
+.container .upload-reject {
+    color: #f00 !important;
+}
+.container .upload-accepted {
+    color: #090 !important;
+}
+  
+.upload-button {
+    padding: 50px 15px;
+    text-align: center;
+    justify-content: center;
+}
